@@ -13,62 +13,6 @@ body {
     overflow-x: hidden;
 }
 
-.navbar-toggler {
-    color: #e3e3e3 !important;
-    border: 1px solid #d8d8d8 !important;
-    padding: 0.5rem !important;
-}
-
-/* Style de l'icône du bouton de navigation */
-.navbar-toggler-icon {
-    background-image: none;
-    position: relative;
-    background-color: transparent !important;
-}
-
-.navbar-toggler-icon::before {
-    content: "";
-    position: absolute;
-    width: 24px;
-    height: 2px;
-    background-color: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 -6px 0 white, 0 6px 0 white;
-}
-
-header {
-    border-radius: 30px;
-    background-image: url('img/Digital-launchpad - -Wide-Banner-min-1-p-1600.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 450px;
-    width: 100%;
-    position: relative;
-}
-
-.center-logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 50%;
-    height: auto;
-    animation: slide-in 1.5s ease-out;
-}
-
-@keyframes slide-in {
-    0% {
-        opacity: 0;
-        transform: translate(-50%, -100%);
-    }
-    100% {
-        opacity: 1;
-        transform: translate(-50%, -50%);
-    }
-}
 /*---------------------------------- Animation de chargement ------------------------*/
 #loading-overlay {
     position: fixed;
@@ -111,6 +55,89 @@ header {
     40% {
         transform: scale(1);
     }
+}
+
+.navbar-toggler {
+    color: #e3e3e3 !important;
+    border: 1px solid #d8d8d8 !important;
+    padding: 0.5rem !important;
+}
+
+/* Style de l'icône du bouton de navigation */
+.navbar-toggler-icon {
+    background-image: none;
+    position: relative;
+    background-color: transparent !important;
+}
+
+.navbar-toggler-icon::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 -6px 0 white, 0 6px 0 white;
+}
+
+header {
+    border-radius: 30px;
+    background-image: url('../img/Digital-launchpad\ -\ -Wide-Banner-min-1-p-1600.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+.center-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+    height: auto;
+    animation: slide-in 1.5s ease-out;
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Style du bouton de navigation (toggler) */
+.navbar-toggler {
+    color: #e3e3e3 !important;
+    border: 1px solid #d8d8d8 !important;
+    padding: 0.5rem !important;
+}
+
+/* Style de l'icône du bouton de navigation */
+.navbar-toggler-icon {
+    background-image: none;
+    position: relative;
+    background-color: transparent !important;
+}
+
+.navbar-toggler-icon::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 -6px 0 white, 0 6px 0 white;
 }
 
 /* Contenu principal caché au début */
@@ -237,16 +264,6 @@ div ul li a:hover {
 }
 
 
-.courses {
-    color: white;
-    font-size: 25px;
-    margin-top: 20px;
-    font-family: Arial, sans-serif;
-}
-
-.courses div{
-    animation: scroll;
-}
 
 .courses div{
     animation: scroll linear;
@@ -263,11 +280,8 @@ div ul li a:hover {
     align-items: center;
     justify-content: space-between
 }
-.module p{
-    color: white;
-}
 
-.courses Curriculum{
+.module p{
     color: white;
 }
 
